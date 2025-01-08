@@ -1,15 +1,17 @@
 body {
-  background-color: #ffffff;
+  background-color: #fcfcfc;
 }
 
-p {
-  color: #00171f;
+p,
+a {
+  color: #000f08;
   font-family: Lexend Deca;
+  text-decoration: none;
 }
 
 h1 {
   font-family: Poiret One;
-  color: #00171f;
+  color: #000f08;
 }
 
 header {

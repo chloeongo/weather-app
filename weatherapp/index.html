@@ -12,23 +12,7 @@
     <title>Weather App</title>
   </head>
   <body>
-    <header></header>
-
-    <div id="weatherDisplay"></div>
-
-    <div id="app">
-      <p>{{message}}</p>
-    </div>
-
-    <script>
-      const app = Vue.createApp({
-        data() {
-          return {
-            message: "Hello World!",
-          };
-        },
-      });
-      app.mount("#app");
-    </script>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
   </body>
 </html>
