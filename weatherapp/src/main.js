@@ -13,7 +13,6 @@ app.mount("#app");
 
 const routes = [
   { path: "/", component: Home },
-  { path: "/weer", component: Weer },
 ];
 
 const router = createRouter({
